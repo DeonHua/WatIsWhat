@@ -1,19 +1,19 @@
 walk(document.body);
 
-function walk(node) 
+function walk(node)
 {
 	// I stole this function from here:
 	// http://is.gd/mwZp7E
-	
+
 	var child, next;
 
-	switch ( node.nodeType )  
+	switch ( node.nodeType )
 	{
 		case 1:  // Element
 		case 9:  // Document
 		case 11: // Document fragment
 			child = node.firstChild;
-			while ( child ) 
+			while ( child )
 			{
 				next = child.nextSibling;
 				walk(child);
@@ -27,16 +27,12 @@ function walk(node)
 	}
 }
 
-function handleText(textNode) 
+function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
 	v = v.replace("Mo", "Moo");
-	v = v.replace("moo", "moo");
-	v = v.replace(/\bthe Cloud\b/g, "my Butt");
-	v = v.replace(/\bthe cloud\b/g, "my butt");
-	
+	v = v.replace("mo", "moo");
+
 	textNode.nodeValue = v;
 }
-
-

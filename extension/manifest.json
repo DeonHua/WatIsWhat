@@ -1,0 +1,14 @@
+{
+	"manifest_version": 3,
+	"name": "Cow Friendly Internet",
+	"version": "1.0",
+	"description": "Makes the internet moo-re cow friendly.",
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
