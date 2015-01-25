@@ -1,8 +1,8 @@
 {
 	"manifest_version": 3,
-	"name": "Cow Friendly Internet",
+	"name": "Internet Cow-ifier",
 	"version": "1.0",
-	"description": "Makes the internet moo-re cow friendly.",
+	"description": "Makes the internet moo-re cow friendly. Have you moo-ed today?",
 	"content_scripts":
 	[
 		{
