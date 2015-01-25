@@ -33,6 +33,8 @@ function handleText(textNode)
 
 	v = v.replace("Mo", "Moo");
 	v = v.replace("mo", "moo");
+	v = v.replace("Mu", "moo");
+	v = v.replace("mu", "moo");
 
 	textNode.nodeValue = v;
 }
