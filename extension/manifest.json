@@ -1,6 +1,6 @@
 {
 	"manifest_version": 3,
-	"name": "Internet Cow-ifier",
+	"name": "Moo The Net",
 	"version": "1.0",
 	"description": "Makes the internet moo-re cow friendly. Have you moo-ed today?",
 	"content_scripts":

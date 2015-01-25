@@ -1,4 +1,4 @@
-cow-friendly-internet
+Moo The Net
 =============
 
 Chrome extension that replaces occurrences of 'mo' with 'moo'
