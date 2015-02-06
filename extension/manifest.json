@@ -1,8 +1,8 @@
 {
 	"manifest_version": 3,
-	"name": "Moo The Net",
+	"name": "WatIsWhat",
 	"version": "1.0",
-	"description": "Makes the internet moo-re cow friendly. Have you moo-ed today?",
+	"description": "Converts 'what' to 'wat', in true uWaterloo fashion.",
 	"content_scripts":
 	[
 		{
